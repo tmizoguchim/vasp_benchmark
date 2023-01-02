@@ -15,25 +15,29 @@ Benchmark test for checking PC speed using VASP code.
 | Download .tar file | http://www.edge.iis.u-tokyo.ac.jp/vasp/speed-chk-small.tar  |
 
 #### Results
-| CPU  | # of parallel | Elapsed time (sec) | Compiler, Library, etc. |  VASP version | # of iteration |
-| ---- | ---- |---- |---- |---- |---- |
-| Pentium 4 3.0GHz  | 1 | 405.700	| MKL |  VASP.4.6.12 |  8 |
-| Pentium D 2.8GHz  | 2 | 366.748 | ATLAS | VASP.4.6.12 |  8 |
-| Pentium D 2.8GHz  | 2 | 145.897 | MKL | VASP.4.6.31| 8 |
-| Athlon 4.4+GHz  | 2 | 157.976	 | ATLAS | VASP.4.6.12| 8 |
-| Core2Duo 2.4GHz  | 2 |103. | MKL | VASP.4.6.12|  8 |  8 |
-| Core2Quad 2.4GHz  | 4 | 107.071 | MKL | VASP.4.6.28|  8 |
-| Core2Quad 2.66GHz  | 4 | 98.455 | MKL | VASP.4.6.28|   8 |
-| Core2Quad 2.83Hz  | 4 | 89.891 | MKL | VASP.4.6.28|   8 |
-| HA8000	情報基盤センター  | 16 | 39.550 | MKL | vasp.4.6.36|   8 |
-| Core i7 3.2GHz (si1) | 4 | 45.738 | MKL | vasp.5.2.2 |   8 |
-| Core i7 2600k 3.4GHz  | 4 |  38.676 | MKL | vasp.5.2.2 |   8 |
-| Core i7 4770k 3.4GHz  | 4 |  18.084 | MKL | vasp.5.3.2 |   8 |
-| Core i7 6770  3.4GHz  | 4 |  16.536 | MKL | vasp.5.3.2 |   8 |
-| Core i7 6770  3.4GHz HT on | 8 |  18.212 | MKL | vasp.5.3.2 |   8 |
-| XeonE5-2630  2.2GHz (tt30) | 20 |  14.685 | MKL | vasp.5.3.2 |   8 |
-| XeonE5-2680  2.8GHz (ex1) | 20 |  8.568 | MKL | vasp.5.3.2 |   8 |
-| Core i9 9940X 3.3GHz (i8) | 12 |  8.433 | MKL | vasp.6.1.2 |   8 |
+| CPU  | # of parallel | Elapsed time (sec) | Compiler, Library, etc. |  VASP version | # of iteration | OS |
+| ---- | ---- |---- |---- |---- |---- |--- |
+| Pentium 4 3.0GHz  | 1 | 405.700	| MKL |  VASP.4.6.12 |  8 |CentOS |
+| Pentium D 2.8GHz  | 2 | 366.748 | ATLAS | VASP.4.6.12 |  8 |CentOS |
+| Pentium D 2.8GHz  | 2 | 145.897 | MKL | VASP.4.6.31| 8 |CentOS |
+| Athlon 4.4+GHz  | 2 | 157.976	 | ATLAS | VASP.4.6.12| 8 |CentOS |
+| Core2Duo 2.4GHz  | 2 |103. | MKL | VASP.4.6.12|  8 |  8 |CentOS |
+| Core2Quad 2.4GHz  | 4 | 107.071 | MKL | VASP.4.6.28|  8 |CentOS |
+| Core2Quad 2.66GHz  | 4 | 98.455 | MKL | VASP.4.6.28|   8 |CentOS |
+| Core2Quad 2.83Hz  | 4 | 89.891 | MKL | VASP.4.6.28|   8 |CentOS |
+| HA8000	情報基盤センター  | 16 | 39.550 | MKL | vasp.4.6.36|   8 |CentOS |
+| Core i7 3.2GHz (si1) | 4 | 45.738 | MKL | vasp.5.2.2 |   8 |CentOS |
+| Core i7 2600k 3.4GHz  | 4 |  38.676 | MKL | vasp.5.2.2 |   8 |CentOS |
+| Core i7 4770k 3.4GHz  | 4 |  18.084 | MKL | vasp.5.3.2 |   8 |CentOS |
+| Core i7 6770  3.4GHz  | 4 |  16.536 | MKL | vasp.5.3.2 |   8 |CentOS |
+| Core i7 6770  3.4GHz HT on | 8 |  18.212 | MKL | vasp.5.3.2 |   8 |CentOS |
+| XeonE5-2630  2.2GHz (tt30) | 20 |  14.685 | MKL | vasp.5.3.2 |   8 |CentOS |
+| XeonE5-2680  2.8GHz (ex1) | 20 |  8.568 | MKL | vasp.5.3.2 |   8 |CentOS |
+| Core i9 9940X 3.3GHz (i8) | 12 |  8.433 | MKL | vasp.6.1.2 |   8 |CentOS |
+| Core(TM) i7-1265U (thinkpad) | 12 |   17.036 | MKL | vasp.6.3.0 |   5 |Win11-wsl2 Ubunt|
+| Core(TM) i7-1265U (thinkpad) | 4 |   12.639 | MKL | vasp.6.3.0 |   5 |Win11-wsl2 Ubunt|
+| Core(TM) i7-1265U (thinkpad) | 2 |   14.272 | MKL | vasp.6.3.0 |   8 |Win11-wsl2 Ubunt|
+| Core(TM) i7-1265U (thinkpad) | 1 |   19.755 | MKL | vasp.6.3.0 |   8 |Win11-wsl2 Ubunt|
 
 
 
